@@ -6,35 +6,66 @@
     <title>Events - Jazz Choir</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/events.css">
-
+    
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo-container">
-            <img src="images/logo.png" alt="Jazz Korosu Logosu" class="logo" style="width: 180px;">
-            <h1>Tantanacılar Jazz</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME PAGE</a></li>
-                <li><a href="events.html">EVENTS</a></li>
-                <li><a href="gallery.html">GALLERY</a></li>
-                <li><a href="contact.html">CONNACT</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section class="content">
-        <h2>UPCOMING EVENTS</h2>
-        <ul>
-            <li><strong>🎷 Jazz Night</strong> - 10 March 2025, İstanbul</li>
-            <li><strong>🎤 Koro Konseri</strong> - 22 April 2025, Ankara</li>
-            <li><strong>🎶 Atölye Çalışması</strong> - 5 May 2025, İzmir</li>
-        </ul>
-    </section>
+    <div class="wrapper">
+        <header>
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Jazz Korosu Logosu" class="logo">
+                <h1>Tantanacılar Jazz</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME PAGE</a></li>
+                    <li><a href="events.html" class="active">EVENTS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="content">
+                <h2>Upcoming Events</h2>
+                <div id="accordion">
+                    <h3><span class="event-icon">🎷</span> Jazz Night - 10 March 2025, İstanbul</h3>
+                    <div>
+                        <p>Join us for an electrifying evening of jazz at the heart of İstanbul. Enjoy soulful performances by our choir!</p>
+                        <p><strong>Location:</strong> İstanbul Jazz Center</p>
+                        <p><strong>Time:</strong> 20:00</p>
+                        <a href="contact.html" class="cta-button">Reserve Now</a>
+                    </div>
+                    <h3><span class="event-icon">🎤</span> Koro Konseri - 22 April 2025, Ankara</h3>
+                    <div>
+                        <p>Experience our choir's harmonious melodies in a grand concert in Ankara.</p>
+                        <p><strong>Location:</strong> Ankara Concert Hall</p>
+                        <p><strong>Time:</strong> 19:30</p>
+                        <a href="contact.html" class="cta-button">Reserve Now</a>
+                    </div>
+                    <h3><span class="event-icon">🎶</span> Atölye Çalışması - 5 May 2025, İzmir</h3>
+                    <div>
+                        <p>Learn jazz techniques in our interactive workshop in İzmir. Perfect for all skill levels!</p>
+                        <p><strong>Location:</strong> İzmir Music Academy</p>
+                        <p><strong>Time:</strong> 14:00</p>
+                        <a href="contact.html" class="cta-button">Reserve Now</a>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-    <footer>
-        <p>&copy; 2025 Jazz Choir - All Rights Reserved.</p>
-    </footer>
+        <footer>
+            <p>© 2025 Tantanacılar Jazz - All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/events.js"></script>
 </body>
 </html>
