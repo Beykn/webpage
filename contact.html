@@ -43,14 +43,14 @@
                         <label for="event">Event:</label>
                         <select id="event" name="event" required>
                             <option value="">Select an event</option>
-                            <option value="Jazz Night">Jazz Night - 10 March 2025, İstanbul</option>
-                            <option value="Koro Konseri">Koro Konseri - 22 April 2025, Ankara</option>
-                            <option value="Atölye Çalışması">Atölye Çalışması - 5 May 2025, İzmir</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="date">Preferred Date:</label>
-                        <input type="text" id="date" name="date" readonly required>
+                        <select id="date" name="date" required>
+                            <option value="">Select a date</option>
+                        </select>
+                        <div id="spots-info"></div>
                     </div>
                     <div class="form-group">
                         <label for="message">Message:</label>

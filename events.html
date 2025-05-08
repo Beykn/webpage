@@ -6,9 +6,8 @@
     <title>Events - Jazz Choir</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/events.css">
-    
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-   
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -31,29 +30,8 @@
         <main>
             <section class="content">
                 <h2>Upcoming Events</h2>
-                <div id="accordion">
-                    <h3><span class="event-icon">🎷</span> Jazz Night - 10 March 2025, İstanbul</h3>
-                    <div>
-                        <p>Join us for an electrifying evening of jazz at the heart of İstanbul. Enjoy soulful performances by our choir!</p>
-                        <p><strong>Location:</strong> İstanbul Jazz Center</p>
-                        <p><strong>Time:</strong> 20:00</p>
-                        <a href="contact.html" class="cta-button">Reserve Now</a>
-                    </div>
-                    <h3><span class="event-icon">🎤</span> Koro Konseri - 22 April 2025, Ankara</h3>
-                    <div>
-                        <p>Experience our choir's harmonious melodies in a grand concert in Ankara.</p>
-                        <p><strong>Location:</strong> Ankara Concert Hall</p>
-                        <p><strong>Time:</strong> 19:30</p>
-                        <a href="contact.html" class="cta-button">Reserve Now</a>
-                    </div>
-                    <h3><span class="event-icon">🎶</span> Atölye Çalışması - 5 May 2025, İzmir</h3>
-                    <div>
-                        <p>Learn jazz techniques in our interactive workshop in İzmir. Perfect for all skill levels!</p>
-                        <p><strong>Location:</strong> İzmir Music Academy</p>
-                        <p><strong>Time:</strong> 14:00</p>
-                        <a href="contact.html" class="cta-button">Reserve Now</a>
-                    </div>
-                </div>
+                <div id="accordion"></div>
+                <div id="map"></div>
             </section>
         </main>
 
@@ -62,9 +40,9 @@
         </footer>
     </div>
 
-    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="js/main.js"></script>
     <script src="js/events.js"></script>
 </body>

@@ -11,7 +11,6 @@ html, body {
   color: #333;
 }
 
-
 .hero {
   position: relative;
   height: 100vh;
@@ -24,7 +23,7 @@ html, body {
 
 .hero-slider .slide {
   position: relative;
-  display: flex !important; 
+  display: flex !important;
   align-items: center;
   justify-content: center;
   height: 100vh !important;
@@ -68,7 +67,6 @@ html, body {
   border-radius: 50%;
 }
 
-
 .slick-prev:hover, .slick-next:hover {
   background: #d4a017;
 }
@@ -95,60 +93,10 @@ html, body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-#tabs {
-  margin-top: 20px;
+#news-feed p {
+  margin-bottom: 15px;
 }
 
-#tabs ul {
-  background: #1C2526;
-  border-radius: 6px 6px 0 0;
-}
-
-#tabs ul li a {
-  color: #F7F5E6;
-  text-decoration: none;
-  padding: 10px 20px;
-  display: block;
-}
-
-#tabs ul li.ui-tabs-active a {
-  background: #B88C14;
-  color: #1C2526;
-}
-
-#tabs div {
-  padding: 20px;
-  background: #F7F5E6;
-  border-radius: 0 0 6px 6px;
-  color: #1C2526;
-}
-
-.cta-button {
-  padding: 12px 28px;
-  background-color: #d4a017;
-  color: #000;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #f0c040;
-  color: #222;
-}
-
-/* Footer */
-footer {
-  background-color: #1c1c1c;
-  color: #f0f0f0;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9rem;
-}
-
-/* Responsive */
 @media (max-width: 768px) {
   .hero-content h2 {
     font-size: 2.2rem;

@@ -1,4 +1,3 @@
-/* Events page styles */
 .content {
   max-width: 1000px;
   margin: 40px auto;
@@ -13,14 +12,14 @@ h2 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 30px;
-  color: #1C2526; /* Deep Navy for headings */
+  color: #1C2526;
 }
 
 #accordion h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
-  background: #1C2526; /* Deep Navy background */
-  color: #F7F5E6; /* Soft Cream text */
+  background: #1C2526;
+  color: #F7F5E6;
   padding: 15px;
   border-radius: 6px;
   cursor: pointer;
@@ -31,7 +30,7 @@ h2 {
 }
 
 #accordion h3:hover {
-  background: #B88C14; /* Muted Gold on hover */
+  background: #B88C14;
 }
 
 .event-icon {
@@ -40,10 +39,10 @@ h2 {
 
 #accordion div {
   padding: 20px;
-  background: #F7F5E6; /* Soft Cream background */
+  background: #F7F5E6;
   border-radius: 6px;
   margin-bottom: 10px;
-  color: #1C2526; /* Deep Navy text */
+  color: #1C2526;
 }
 
 #accordion p {
@@ -53,7 +52,7 @@ h2 {
 .cta-button {
   display: inline-block;
   margin-top: 10px;
-  background: #B88C14; 
+  background: #B88C14;
   color: #1C2526;
 }
 
@@ -62,6 +61,12 @@ h2 {
   color: #F7F5E6;
 }
 
+#map {
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
 @media (max-width: 768px) {
   .content {
